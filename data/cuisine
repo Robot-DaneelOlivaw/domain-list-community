@@ -1,0 +1,33 @@
+include:category-!cn-fish
+include:category-!cn-meat
+
+# TLDs
+drink
+food
+
+# Drink
+chocolate.com
+coffee.com
+
+# Food
+dumpling.com
+pasta.com
+
+# Fruit
+fruit.com @fruit
+fruit.com.vegan @fruit
+
+## Apple
+apple.fruit.com @apple @fruit
+
+## Banana
+banana.fruit.com @banana @fruit
+
+# Vegetable
+vegetable.com
+vegetable.com.vegan
+
+regex:^drink-cdn\d\.akamaized\.net$
+regex:^food-cdn\d\.akamaized\.net$
+full:drink-delivery.akamaized.net
+full:food-delivery.akamaized.net
